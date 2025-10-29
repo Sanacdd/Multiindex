@@ -1,0 +1,58 @@
+body {
+margin : 0;
+font-family: arial,sans-serif;
+
+}
+
+header,
+ footer{
+    height:20vh;
+    background-color: rgb(170, 123, 23);
+
+}
+
+main{
+    height: 60vh;
+    background-color: rgb(129, 97, 97);
+}
+.menu{
+    background-color: #333;
+    padding:0;
+    margin:0;
+}
+.menu >.menu-list {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    color: rgb(0, 70, 128);
+    .menu-item{
+        background-color: #9b3131;
+        margin: 2rem  0.5rem  1rem;
+        padding: 1rem;
+    }
+
+}
+.content {
+  background-color: #9b3131;
+  padding: 30px 50px;
+  border-radius: 10px;
+  
+
+}
+.title {
+  text-align: center; 
+  color: black;
+  margin-bottom: 20px;
+}
+.description {
+  text-align: justify;
+  line-height: 1.6;
+  margin-right: 320px; 
+}
+
+img {
+  float: right;
+  width: 320px;
+  margin: 10px 20px 40px;
+ 
+}
